@@ -6,7 +6,7 @@ admin.autodiscover()
 
 urlpatterns = patterns('',
     # Examples:
-    url(r'test.gif^$', 'log.views.logo', name='home'),
+    url(r'^test.gif$', 'log.views.logo', name='home'),
     # url(r'^imageip/', include('imageip.foo.urls')),
 
     # Uncomment the admin/doc line below to enable admin documentation:
